@@ -49,5 +49,7 @@ public class ex34 {
         } else if (imc >= 40) {
             System.out.printf("\nSeu IMC: %.1f \nMaior que 40,0: Obesidade Mórbida",imc);
         }
+
+        scan.close();
     }
 }
